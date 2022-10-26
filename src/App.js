@@ -4,10 +4,12 @@ import Home from './components/Home';
 import About from './components/About';
 import ReactDomWork from './components/ReactDomWork';
 import FindDomNodeWork from './components/FindDomNodeWork';
+import FormWork from './components/FormWork';
 function App() {
   return (
     <div className="App">
-      <FindDomNodeWork></FindDomNodeWork>
+      <FormWork></FormWork>
+      {/* <FindDomNodeWork></FindDomNodeWork> */}
       {/* <Home title="Home"></Home>
       <About title="About"></About>
       <ReactDomWork></ReactDomWork> */}
