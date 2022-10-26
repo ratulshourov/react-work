@@ -18,11 +18,16 @@ class Home extends Component {
             <h1>Skill:{this.state.skill[1]}</h1>
             <h1>project:{this.state.project.laravel}</h1>
             <button className="btn btn-primary" onClick={this.clickHome.bind(this,"I am the argument value")}>Click Home Page</button>
+            <button className="btn btn-warning" onClick={this.changeName.bind(this,"Ratul Shourov")}>Update Name</button>
         </div>
     }
 
     clickHome(argument) {
         alert(argument);
+    }
+    //ES6
+    changeName=(updateName)=>{
+        this.setState({name:updateName})
     }
 }
 
