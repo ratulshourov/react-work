@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
+import ReactDomWork from './components/ReactDomWork';
 function App() {
   return (
     <div className="App">
       <Home title="Home"></Home>
       <About title="About"></About>
+      <ReactDomWork></ReactDomWork>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
