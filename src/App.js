@@ -4,7 +4,7 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App">
-      <Home></Home>
+      <Home title="Home"></Home>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

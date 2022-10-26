@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Home extends Component {
     render() {
-        return <h1>Home page</h1>
+        return <h1>{this.props.title} page</h1>
     }
 }
 
