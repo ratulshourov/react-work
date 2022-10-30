@@ -5,10 +5,12 @@ import About from './components/About';
 import ReactDomWork from './components/ReactDomWork';
 import FindDomNodeWork from './components/FindDomNodeWork';
 import FormWork from './components/FormWork';
+import TexAreaWork from './components/TexAreaWork';
 function App() {
   return (
     <div className="App">
-      <FormWork></FormWork>
+      <TexAreaWork></TexAreaWork>
+      {/* <FormWork></FormWork> */}
       {/* <FindDomNodeWork></FindDomNodeWork> */}
       {/* <Home title="Home"></Home>
       <About title="About"></About>
