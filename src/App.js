@@ -20,7 +20,7 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <Router>
-      <div >
+      <div className='App'>
         <ul>
           <li>
             <Link to="/">Home</Link>
