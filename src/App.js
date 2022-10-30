@@ -6,10 +6,12 @@ import ReactDomWork from './components/ReactDomWork';
 import FindDomNodeWork from './components/FindDomNodeWork';
 import FormWork from './components/FormWork';
 import TexAreaWork from './components/TexAreaWork';
+import JsonArrayListWork from './components/JsonArrayListWork';
 function App() {
   return (
     <div className="App">
-      <TexAreaWork></TexAreaWork>
+      <JsonArrayListWork></JsonArrayListWork>
+      {/* <TexAreaWork></TexAreaWork> */}
       {/* <FormWork></FormWork> */}
       {/* <FindDomNodeWork></FindDomNodeWork> */}
       {/* <Home title="Home"></Home>
